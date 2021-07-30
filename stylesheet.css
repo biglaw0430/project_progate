@@ -1,0 +1,67 @@
+/* COLOR-PALLETE 
+
+#f9f7f7
+#dbe2ef
+#3f72af
+#112d4e
+
+*/
+
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: helvetica;
+}
+
+.container {
+  width: 1170px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+a {
+  text-decoration: none;
+}
+
+/* HEADER */
+
+header {
+  height: 70px;
+  width: 100%;
+  background-color: #112d4e94;
+  position: fixed;
+  top: 0;
+  z-index: 10;
+}
+
+.header-left p {
+  margin-top: 15px;
+  font-size: 35px;
+  float: left;
+  color: #f9f7f7;
+  opacity: 0.7;
+
+}
+
+.header-right {
+  float: right;
+
+}
+
+.header-right a {
+  line-height: 70px;
+  padding: 0 25px;
+  color: black;
+  background-color: #f9f7f760;
+  font-size: 25px;
+  text-align: center;
+  display: block;
+}
+
+.header-right a:hover {
+  background-color: #f9f7f79c;
+}
